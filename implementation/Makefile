@@ -1,5 +1,5 @@
 PROJ_NAME = String_to_Ascii
-SRC = function.c main.c 
+SRC = ascii.c function.c
 ifdef OS
 	RM = del /q
 	FixPath= $(subst /,\,$l)
